@@ -1,0 +1,16 @@
+body {
+    background-color: black; /* Sets the background color */
+    color: white; /* Sets the text color */
+    font-family: Arial, Helvetica, sans-serif; /* Sets the font family */
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/757/235/802/music-background-dark-vinyl-wallpaper-preview.jpg");
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh;
+}
+
+
+  .card {
+    background-color: #333;
+    color: white;
+  }
