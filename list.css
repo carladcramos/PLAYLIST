@@ -1,0 +1,123 @@
+body {
+  /* Replace 'your-image.jpg' with the path to your image */
+  background-image: url('/bg.jpg');
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+#wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white; /* White text for header */
+}
+
+#page-banner {
+  margin-bottom: 20px;
+}
+
+#search-song {
+  margin: 20px 0;
+}
+
+#search-input {
+  padding: 10px;
+  width: calc(100% - 20px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#add-song {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #222; /* Black background for the add song card */
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  color: white; /* White text for add song section */
+}
+
+#add-song-form {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: row; /* Arrange children in a row */
+  gap: 10px; /* Space between the input fields */
+}
+
+#song-name,
+#song-artist {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #444; /* Darker border color */
+  border-radius: 5px;
+  background-color: #333; /* Dark background for input fields */
+  color: white; /* White text for input fields */
+}
+
+#song-name::placeholder,
+#song-artist::placeholder {
+  color: #aaa; /* Light gray placeholder text */
+}
+
+.btn-primary {
+  background-color: #28a745; /* Green button color */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px; /* Fixed width for the button */
+  height: 38px; /* Match the input field height */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.btn-primary:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+#song-list {
+  margin-top: 20px;
+}
+
+#song-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+#song-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #444; /* Darker border for list items */
+  color: white; /* White text for list items */
+}
+
+.song {
+  font-weight: bold;
+}
+
+.artist {
+  font-style: italic;
+  color: #aaa; /* Light gray for artist names */
+}
+
+.delete {
+  background-color: #dc3545; /* Red delete button */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
